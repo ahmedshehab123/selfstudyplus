@@ -2,7 +2,7 @@ import React from "react"
 import "../../assets/css/viewer.min.css"
 import NewHeader from "../header"
 import Footer from "../../components/footer"
-
+import {Link} from "gatsby"
 
 class Features extends React.Component {
   render() {
@@ -10,33 +10,7 @@ class Features extends React.Component {
       <div>
         <NewHeader/>
         <div>
-          <meta httpEquiv="X-UA-Compatible" content="IE=Edge"/>
-          <meta charSet="utf-8"/>
-          <meta name="generator" content="Wix.com Website Builder"/>
-          <link rel="shortcut icon" href="https://static.parastorage.com/client/pfavico.ico" type="image/x-icon"/>
-          <link rel="apple-touch-icon" href="https://static.parastorage.com/client/pfavico.ico" type="image/x-icon"/>
-          <meta httpEquiv="X-Wix-Meta-Site-Id" content="834aabab-dfb0-4f56-b970-2d3050cfa7b1"/>
-          <meta httpEquiv="X-Wix-Application-Instance-Id" content="fa23077a-723e-4a2b-8d5f-2c382ac2ef02"/>
-          <meta httpEquiv="X-Wix-Published-Version" content={774}/>
-          <meta httpEquiv="etag" content="e60c1513e8c2ae8b5338d9cc8b1c2f9c"/>
-          <meta name="format-detection" content="telephone=no"/>
-          <meta name="SKYPE_TOOLBAR" content="SKYPE_TOOLBAR_PARSER_COMPATIBLE"/>
-          <meta id="wixMobileViewport" name="viewport" content="width=980, user-scalable=yes"/>
-          {/* META DATA */}
-          <meta name="fragment" content="!"/>
-          {/* DATA */}
-          {/*head html embeds start*/}
-          {/*head html embeds end*/}
-          <link id="viewerMainStyle" rel="stylesheet" type="text/css"
-                href="https://static.parastorage.com/services/wix-bolt/1.1756.0/node_modules/wix-santa/static/css/viewer.min.css"/>
-          <title>FEATURES | selfstudyplus</title>
-          <link rel="canonical" href="https://www.selfstudy.plus/features"/>
-          <meta property="og:title" content="FEATURES | selfstudyplus"/>
-          <meta property="og:url" content="https://www.selfstudy.plus/features"/>
-          <meta property="og:site_name" content="selfstudyplus"/>
-          <meta property="og:type" content="Website"/>
-          {/*body start html embeds start*/}
-          {/*body start html embeds end*/}
+
           <div id="SITE_CONTAINER">
             <style type="text/css" data-styleid="uploadedFonts" dangerouslySetInnerHTML={{ __html: "" }}/>
             <div>
@@ -175,7 +149,7 @@ class Features extends React.Component {
                     marginLeft: 0,
                     width: "100%",
                     minWidth: "980px",
-                    top: '137px',
+                    top: "137px",
                     bottom: "",
                     right: "",
                     height: "2673px",
@@ -185,7 +159,7 @@ class Features extends React.Component {
                          className="pc1screenWidthBackground"/>
                     <div id="PAGES_CONTAINERcenteredContent" className="pc1centeredContent">
                       <div style={{ display: "none" }} id="PAGES_CONTAINERbg" className="pc1bg"/>
-                      <div id="PAGES_CONTAINERinlineContent" className="pc1inlineContent">
+                      <div id="PAGES_CONTAINERinlineContent" className="style-ini3aylfinlineContent">
                         <div style={{ width: "100%" }}>
                           <div data-ismobile="false" data-is-mesh-layout="false" style={{
                             height: "2020px",
@@ -196,7 +170,7 @@ class Features extends React.Component {
                             bottom: "",
                             right: "",
                             width: "100%",
-                            position: "absolute"
+                            position: "absolute",
                           }} className="style-ilvfjini" id="kr7wa">
                             <div style={{ marginLeft: "calc((100% - 980px) / 2)", width: "980px" }} id="kr7wabg"
                                  className="style-ilvfjinibg"/>
@@ -324,11 +298,11 @@ class Features extends React.Component {
                                 width: "142px",
                                 height: "40px",
                                 position: "absolute",
-                              }} className="style-iltqpztx" data-state="desktop shouldUseFlex center"><a
-                                href="https://www.selfstudy.plus/program-directors" target="_self"
+                              }} className="style-iltqpztx" data-state="desktop shouldUseFlex center"><Link
+                                to="component/program-directors" target="_self"
                                 data-keep-roots="true" data-anchor="dataItem-ioaaz52z" role="button"
                                 id="comp-ilvca13olink" className="g-transparent-a style-iltqpztxlink"><span
-                                id="comp-ilvca13olabel" className="style-iltqpztxlabel">Learn More</span></a></div>
+                                id="comp-ilvca13olabel" className="style-iltqpztxlabel">Learn More</span></Link></div>
                               <div style={{
                                 top: "100px",
                                 bottom: "",
@@ -349,7 +323,7 @@ class Features extends React.Component {
                                     height: "51px",
                                     objectFit: "cover",
                                   }} alt data-type="image"
-                                    src={require('../../assets/img/img3.webp')}/>
+                                    src={require("../../assets/img/img3.webp")}/>
                                   </div>
                                 </div>
                               </div>
@@ -374,7 +348,7 @@ class Features extends React.Component {
                                                                                                height: "427px",
                                                                                                objectFit: "cover",
                                                                                              }} alt data-type="image"
-                                                                                             src={require('../../assets/img/img2.webp')}/>
+                                                                                             src={require("../../assets/img/img2.webp")}/>
                                   </div>
                                 </div>
                               </div>
@@ -649,7 +623,7 @@ class Features extends React.Component {
                                           height: "380px",
                                           objectFit: "cover",
                                         }} alt data-type="image"
-                                          src={require('../../assets/img/img8.webp')}/>
+                                          src={require("../../assets/img/img8.webp")}/>
                                         </div>
                                       </a></div>
                                       <div style={{
@@ -751,7 +725,7 @@ class Features extends React.Component {
                                             height: "196px",
                                             objectFit: "cover",
                                           }} alt data-type="image"
-                                            src={require('../../assets/img/img1.webp')}/>
+                                            src={require("../../assets/img/img1.webp")}/>
                                           </div>
                                         </div>
                                       </div>
@@ -819,7 +793,7 @@ class Features extends React.Component {
                                             height: "191px",
                                             objectFit: "cover",
                                           }} alt data-type="image"
-                                            src={require('../../assets/img/img6.webp')}/>
+                                            src={require("../../assets/img/img6.webp")}/>
                                           </div>
                                         </div>
                                       </div>
@@ -975,7 +949,7 @@ class Features extends React.Component {
                                             height: "396px",
                                             objectFit: "cover",
                                           }} alt data-type="image"
-                                            src={require('../../assets/img/img5.webp')}/>
+                                            src={require("../../assets/img/img5.webp")}/>
                                           </div>
                                         </div>
                                       </div>
@@ -1048,13 +1022,13 @@ class Features extends React.Component {
               <div id="aspectCompsContainer" className="siteAspectsContainer"/>
             </div>
             <div className="font-ruler-container"
-                 style={{ overflow: "hidden",  maxHeight: 0, maxWidth: 0, position: "absolute" }}>
+                 style={{ overflow: "hidden", maxHeight: 0, maxWidth: 0, position: "absolute" }}>
               <style dangerouslySetInnerHTML={{ __html: ".font-ruler-content::after {content:\"@#$%%^&*~IAO\"}" }}/>
               <div style={{
                 position: "absolute",
                 overflow: "hidden",
                 fontSize: "1200px",
-                left: "-2000px"
+                left: "-2000px",
               }}>
                 <div style={{ position: "relative", whiteSpace: "nowrap", fontFamily: "serif" }}>
                   <div style={{ position: "absolute", width: "100%", height: "100%", overflow: "hidden" }}>
@@ -1066,7 +1040,7 @@ class Features extends React.Component {
                 position: "absolute",
                 overflow: "hidden",
                 fontSize: "1200px",
-                left: "-2000px"
+                left: "-2000px",
               }}>
                 <div style={{ position: "relative", whiteSpace: "nowrap", fontFamily: "serif" }}>
                   <div style={{ position: "absolute", width: "100%", height: "100%", overflow: "hidden" }}>
@@ -1078,7 +1052,7 @@ class Features extends React.Component {
                 position: "absolute",
                 overflow: "hidden",
                 fontSize: "1200px",
-                left: "-2000px"
+                left: "-2000px",
               }}>
                 <div style={{ position: "relative", whiteSpace: "nowrap", fontFamily: "serif" }}>
                   <div style={{ position: "absolute", width: "100%", height: "100%", overflow: "hidden" }}>
@@ -1090,7 +1064,7 @@ class Features extends React.Component {
                 position: "absolute",
                 overflow: "hidden",
                 fontSize: "1200px",
-                left: "-2000px"
+                left: "-2000px",
               }}>
                 <div style={{ position: "relative", whiteSpace: "nowrap", fontFamily: "serif" }}>
                   <div style={{ position: "absolute", width: "100%", height: "100%", overflow: "hidden" }}>

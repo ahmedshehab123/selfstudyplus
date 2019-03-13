@@ -7,7 +7,6 @@ class NewHeader extends React.Component{
   render() {
     return (
   <div>
-
     <header data-is-mobile="false" data-state="fixedPosition" data-site-width={980} data-header-top={0} style={{
       position: "fixed",
       marginTop: "0px",

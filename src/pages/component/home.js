@@ -1399,12 +1399,12 @@ class Home extends React.Component {
                                         width: "247px",
                                         height: "51px",
                                         position: "absolute",
-                                      }} className="style-izhn2tyx" data-state="desktop shouldUseFlex center"><a
-                                        href="http://www.na-application.selfstudy.plus/crna" target="_blank"
-                                        data-content="http://www.na-application.selfstudy.plus/crna"
+                                      }} className="style-izhn2tyx" data-state="desktop shouldUseFlex center"><Link
+                                        to="component/crna"
+                                        data-content="component/crna"
                                         data-type="external" role="button" id="comp-izhi4on3link"
                                         className="g-transparent-a style-izhn2tyxlink"><span id="comp-izhi4on3label"
-                                                                                             className="style-izhn2tyxlabel">CRNA</span></a>
+                                                                                             className="style-izhn2tyxlabel">CRNA</span></Link>
                                       </div>
                                       <div id="comp-izhmv9y5" data-align="center" data-disabled="false" data-margin={0}
                                            data-should-use-flex="true" data-width={252} data-height={51} style={{
@@ -1415,19 +1415,20 @@ class Home extends React.Component {
                                         width: "252px",
                                         height: "51px",
                                         position: "absolute",
-                                      }} className="style-izhn3bk6" data-state="desktop shouldUseFlex center"><a
-                                        href="http://www.na-application.selfstudy.plus/srna" target="_blank"
-                                        data-content="http://www.na-application.selfstudy.plus/srna"
+                                      }} className="style-izhn3bk6" data-state="desktop shouldUseFlex center"><Link
+                                        to="component/srna" target="_blank"
+                                        data-content="component/srna"
                                         data-type="external" role="button" id="comp-izhmv9y5link"
                                         className="g-transparent-a style-izhn3bk6link"><span id="comp-izhmv9y5label"
-                                                                                             className="style-izhn3bk6label">SRNA</span></a>
+                                                                                             className="style-izhn3bk6label">SRNA</span></Link>
                                       </div>
                                       <div style={{
                                         top: "438px",
                                         bottom: "",
                                         left: "-461px",
                                         right: "",
-                                        width: "1908px",
+                                        width: "1900px",
+                                        maxWidth:'1900px',
                                         height: "83px",
                                         position: "absolute",
                                       }} className="style-jr13u91r" id="comp-iltxatzo">
