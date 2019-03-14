@@ -25,12 +25,12 @@ class Footer extends React.Component {
                className="style-ini3aylfbg">
             <div className="style-ini3aylf_bg-center"/>
           </div>
-          <div id="SITE_FOOTERinlineContent" className="style-ini3aylfinlineContent">
+          <div id="SITE_FOOTERinlineContent" className="style-ini3aylfinlineContent" >
             <style id="SITE_FOOTER-content-area-styles"
                    dangerouslySetInnerHTML={{ __html: "\n    \n#comp-ihjalf3l {\n    margin-left: calc((100% - 980px) * 0.5);\n}" }}/>
             <div data-packed="true" style={{
               top: "55px",
-              bottom: "",
+              bottom: "auto",
               left: "90px",
               right: "",
               width: "801px",

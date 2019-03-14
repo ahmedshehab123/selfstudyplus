@@ -2,6 +2,13 @@
 import React from "react"
 import "../assets/css/styles.css"
 import { Link } from "gatsby"
+import Helmet from "react-helmet/es/Helmet"
+import '../assets/css/anesthesiologists.css'
+import '../assets/css/home.css'
+import '../assets/css/features.css'
+import '../assets/css/residents-1.css'
+import '../assets/css/program-directors.css'
+
 
 class NewHeader extends React.Component{
   render() {
@@ -18,6 +25,10 @@ class NewHeader extends React.Component{
       top: "0px",
       height: "143px",
     }} className="style-ini6ejpt" id="SITE_HEADER">
+     < Helmet>
+      <meta charSet="utf-8" />
+      <title>SelfStudy</title>
+    </Helmet>
       <div style={{ left: 0, width: "100%" }} id="SITE_HEADERscreenWidthBackground"
            className="style-ini6ejptscreenWidthBackground">
         <div className="style-ini6ejpt_bg"/>
